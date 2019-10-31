@@ -1,5 +1,5 @@
 from . import config as config_lib
-from oauth2client import xsrfutil
+from oauth2client.contrib import xsrfutil
 import urllib
 
 

@@ -2,8 +2,8 @@ from . import handlers
 from . import users
 from apiclient import discovery
 from google.appengine.api import memcache
-from oauth2client import appengine
-from oauth2client import xsrfutil
+from oauth2client.contrib import appengine
+from oauth2client.contrib import xsrfutil
 import httplib2
 import json
 import logging

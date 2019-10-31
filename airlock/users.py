@@ -1,5 +1,5 @@
 from . import config as config_lib
-from oauth2client import xsrfutil
+from oauth2client.contrib import xsrfutil
 from webapp2_extras.appengine.auth import models
 from google.appengine.ext import ndb
 
