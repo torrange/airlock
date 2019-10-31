@@ -2,7 +2,7 @@ from . import config
 from . import errors
 from . import urls
 from . import users
-from oauth2client import appengine
+from oauth2client.contrib import appengine
 from webapp2_extras import auth as webapp2_auth
 from webapp2_extras import security
 from webapp2_extras import sessions
